@@ -26,3 +26,12 @@ body {
     text-wrap: balance;
   }
 }
+.product-page-image {
+  @apply flex-1 md:flex-grow;
+}
+.success{
+  @apply text-green-600;
+}
+.error, .danger {
+  @apply text-red-600;
+}
